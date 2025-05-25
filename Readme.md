@@ -8,7 +8,7 @@ Sistema completo para gestão de computadores com CRUD, desenvolvido em ExtJS 7.
 ## 📋 Pré-requisitos
 
 - [Sencha Cmd CLI](https://www.sencha.com/products/extjs/evaluate/)
-- [Java JDK 8+](https://www.java.com/pt-BR/download/)
+- [Java JDK 8+](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 - [Node.js 14.x+](https://nodejs.org/pt/download/)
 
 - OBS: O JAVA USANDO NO PROJETO É O 1.8.0_202 64-Bit (CONFIGURE NA VARIAVEL DE AMBIENTE PARA EVITAR ERROS)
