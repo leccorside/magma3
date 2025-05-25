@@ -11,6 +11,8 @@ Sistema completo para gestão de computadores com CRUD, desenvolvido em ExtJS 7.
 - [Java JDK 8+](https://www.java.com/pt-BR/download/)
 - [Node.js 14.x+](https://nodejs.org/pt/download/)
 
+- OBS: O JAVA USANDO NO PROJETO É O 1.8.0_202 64-Bit (CONFIGURE NA VARIAVEL DE AMBIENTE PARA EVITAR ERROS)
+
 ## 🚀 Instalação Local
 
 1. **Baixe e instale sua avaliação de 30 dias do Sencha Cmd CLI:**
