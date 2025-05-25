@@ -43,9 +43,9 @@ Sistema completo para gestão de computadores com CRUD, desenvolvido em ExtJS 7.
 
 5. **Copie a pasta "ext" de dentro do projeto criado e cole dentro da pasta de seu projeto:**
 
-```bash
-MyApp/ext
-```
+   ```bash
+   MyApp/ext
+   ```
 
 6. **Executando o projeto:**
 
@@ -92,9 +92,9 @@ MyApp/ext
 
 5. **Copie a pasta "ext" de dentro do projeto criado e cole dentro da pasta de seu projeto:**
 
-```bash
-MyApp/ext
-```
+   ```bash
+   MyApp/ext
+   ```
 
 6. **Dentro da pasta do projeto Gere o build de produção:**
 
