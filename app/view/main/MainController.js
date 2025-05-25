@@ -186,11 +186,13 @@ Ext.define("CadComputercmd.view.main.MainController", {
               success: () => {
                 // 2. Só remove localmente após sucesso na API
                 store.remove(record);
-                Ext.toast({
-                  html: "Registro removido com sucesso!",
-                  align: "t",
-                  slideInDuration: 400,
-                  hideDuration: 500,
+                Ext.Msg.show({
+                  title: "Sucesso",
+                  message: "Registro removido com sucesso!",
+                  buttons: Ext.Msg.OK,
+                  icon: Ext.Msg.INFO,
+                  closable: true,
+                  timeout: 3000, // Fecha automaticamente após 3 segundos
                 });
               },
               failure: () => {
@@ -225,11 +227,13 @@ Ext.define("CadComputercmd.view.main.MainController", {
         success: (response) => {
           const updatedData = Ext.JSON.decode(response.responseText);
           record.set(updatedData); // Atualiza APENAS o registro editado
-          Ext.toast({
-            html: "Registro atualizado com sucesso!",
-            align: "t",
-            slideInDuration: 400,
-            hideDuration: 500,
+          Ext.Msg.show({
+            title: "Sucesso",
+            message: "Registro atualizado com sucesso!",
+            buttons: Ext.Msg.OK,
+            icon: Ext.Msg.INFO,
+            closable: true,
+            timeout: 3000, // Fecha automaticamente após 3 segundos
           });
           window.close();
         },
@@ -247,11 +251,13 @@ Ext.define("CadComputercmd.view.main.MainController", {
         success: (response) => {
           const newData = Ext.JSON.decode(response.responseText);
           store.add(newData); // Adiciona o novo registro
-          Ext.toast({
-            html: "Registro adicionado com sucesso!",
-            align: "t",
-            slideInDuration: 400,
-            hideDuration: 500,
+          Ext.Msg.show({
+            title: "Sucesso",
+            message: "Registro adicionado com sucesso!",
+            buttons: Ext.Msg.OK,
+            icon: Ext.Msg.INFO,
+            closable: true,
+            timeout: 3000, // Fecha automaticamente após 3 segundos
           });
           window.close();
         },
