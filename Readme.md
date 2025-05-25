@@ -33,20 +33,28 @@ Sistema completo para gestão de computadores com CRUD, desenvolvido em ExtJS 7.
    git clone https://github.com/leccorside/magma3.git
    ```
 
-4. **Dentro do projeto baixado execute o comando para instalar as bibliotecas::**
+4. **Execute este comando fora da pasta do projeto:**
+
+- Ele Criará um novo projeto limpo do Encha Ext JS
 
 ```bash
-sencha app install --framework=/path/to/extjs/
+sencha generate app --ext MyApp ./MyApp
 ```
 
-5. **Executando o projeto:**
+5. **Copie a pasta "ext" de dentro do projeto criado e cole dentro da pasta de seu projeto:**
+
+```bash
+MyApp/ext
+```
+
+6. **Executando o projeto:**
 
 - Dentro do projeto baixado execute:
   ```bash
   sencha app watch
   ```
 
-6. **Acessando o projeto**
+7. **Acessando o projeto**
 
    ```bash
    http://localhost:1841
@@ -74,17 +82,27 @@ sencha app install --framework=/path/to/extjs/
    git clone https://github.com/leccorside/magma3.git
    ```
 
-4. **Dentro do projeto baixado execute o comando para instalar as bibliotecas::**
+4. **Execute este comando fora da pasta do projeto:**
+
+- Ele Criará um novo projeto limpo do Encha Ext JS
 
 ```bash
-sencha app install --framework=/path/to/extjs/
+sencha generate app --ext MyApp ./MyApp
 ```
 
-5. **Dentro da pasta do projeto Gere o build de produção:**
+5. **Copie a pasta "ext" de dentro do projeto criado e cole dentro da pasta de seu projeto:**
+
+```bash
+MyApp/ext
+```
+
+6. **Dentro da pasta do projeto Gere o build de produção:**
 
    ```bash
    sencha app build production
    ```
+
+7. **Dentro da pasta do projeto Gere o build de produção:**
 
 - Copie a pasta build/production/NOMEDOPROJETO para seu servidor web
 - Configure o virtual host para apontar para esta pasta
