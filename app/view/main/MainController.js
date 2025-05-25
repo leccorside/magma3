@@ -203,6 +203,8 @@ Ext.define("CadComputercmd.view.main.MainController", {
           }
         }
       );
+    } else {
+      Ext.Msg.alert("Aviso", "Selecione um item para remover.");
     }
   },
 
