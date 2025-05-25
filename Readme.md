@@ -37,9 +37,9 @@ Sistema completo para gestão de computadores com CRUD, desenvolvido em ExtJS 7.
 
 - Ele Criará um novo projeto limpo do Encha Ext JS
 
-```bash
-sencha generate app --ext MyApp ./MyApp
-```
+  ```bash
+  sencha generate app --ext MyApp ./MyApp
+  ```
 
 5. **Copie a pasta "ext" de dentro do projeto criado e cole dentro da pasta de seu projeto:**
 
@@ -86,9 +86,9 @@ MyApp/ext
 
 - Ele Criará um novo projeto limpo do Encha Ext JS
 
-```bash
-sencha generate app --ext MyApp ./MyApp
-```
+  ```bash
+  sencha generate app --ext MyApp ./MyApp
+  ```
 
 5. **Copie a pasta "ext" de dentro do projeto criado e cole dentro da pasta de seu projeto:**
 
